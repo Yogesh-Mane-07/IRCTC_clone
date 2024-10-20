@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    background-image: url("vande_bharat.png");
+    background-size: cover;
+}
+
+#had {
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    display: flex; /* Only use flex here */
+    justify-content: space-around; /* Aligns the items horizontally */
+    align-items: center; /* Centers items vertically */
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.heading div {
+    color: aqua; /* Apply color only to specific elements */
+}
+
+.logo{
+    background-image: url("irctc_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+.logo1{
+    background-image: url("secondry-logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.booking{
+    height: 450px;
+    width: 550px;
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 100px;
+    
+}
+.b1{
+    background-color: #213d77;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    height: 20px;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.button2{
+    background-color: #213d77;
+    width: 270px;
+    height: 41px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 6px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.head1{
+    color: #213d77;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#from, #to ,  #general{ 
+    width: 270px;
+    color: #213d77;
+    height: 37px;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+#date, #class{
+    width: 200px;
+    color: #213d77;
+    height: 37px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+label{
+    color: #213d77;
+    border: none;
+}
+#divbelow{
+    margin-left: 15px;
+}
+#person{
+    margin-bottom: 10px;
+    margin-top: 30PX;
+}
+#flexible, #pass{
+    margin-left: 19px;
+}
+.search{
+    height: 35px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #fb792b;
+    border: none;
+    margin-left: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.try{
+    height: 35px;
+    width: 270px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #fb792b;
+    border: none;
+    margin-right: 15px;
+    margin-left: 140PX;
+    /* border-top-left-radius: 8px 4px; */
+    border-radius: 10px 10px 10px 10px;
+}
+#divbottom{
+    width: 550px;
+    height: 90px;   
+    text-align: center;
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 10px;
+    font-size: 17px;
+}
+#para1{
+    color: blue;
+}
+#para2{
+    color: #007ad9;
+}
+#para3{
+    color: red;
+}
+footer{
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #2c215d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 200px;
+    width: 100%;
+    border: 2px solid white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#footerone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ #footerTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footerthree{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-weight: bold;
+   flex-direction: column;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
