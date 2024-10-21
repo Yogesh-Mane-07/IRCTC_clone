@@ -11,6 +11,7 @@ body {
 
 #had {
     height: 80px;
+    z-index: 1000; 
     background-color: white;
     width: 100%;
     display: flex; /* Only use flex here */
@@ -38,11 +39,16 @@ body {
     background-size: cover;
     height: 60px;
     width: 60px;
+ }
+
+.b1:hover, .alerts:hover, .button2:hover, .search:hover, .try:hover {
+    background-color: #1e5999; /* Added hover effect for buttons */
 }
 .booking{
     height: 450px;
     width: 550px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: 7%;
     margin-top: 100px;
     
@@ -136,7 +142,7 @@ label{
     width: 550px;
     height: 90px;   
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     margin-left: 7%;
     margin-top: 10px;
     font-size: 17px;
@@ -150,45 +156,37 @@ label{
 #para3{
     color: red;
 }
-footer{
-    /* position: absolute;
-    bottom: 0; */
-    background-color: #2c215d;
+
+    
+footer {
+    background-color: #213d77;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    height: 200px;
-    width: 100%;
-    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
     margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
-#footerone {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bold;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
- #footerTwo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#footerthree{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   font-weight: bold;
-   flex-direction: column;
-   padding-top: 20px;
-   padding-bottom: 20px;
+footer div {
+    flex: 1;
+    text-align: center;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+footer a:hover {
+    text-decoration: underline; 
+}
+input:focus, select:focus {
+    outline: none;
+    border-color: #1e5999; /* Added focus effect */
+}
